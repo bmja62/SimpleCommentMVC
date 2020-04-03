@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LeanlinkingModelStoreContainer" CdmEntityContainer="LeanlinkingEntities">
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="LeanlinkingModel.Comments">
+        <MappingFragment StoreEntitySet="Comments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="File_content" ColumnName="File_content" />
+          <ScalarProperty Name="File_name" ColumnName="File_name" />
+          <ScalarProperty Name="Submit_date" ColumnName="Submit_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
